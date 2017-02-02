@@ -7,7 +7,7 @@ var io = require('socket.io').listen(app);
 var fs = require('fs');
 var b = require('bonescript');
 
-app.listen(8080);
+app.listen(8082);
 // socket.io options go here
 io.set('log level', 2);   // reduce logging - set 1 for warn, 2 for info, 3 for debug
 io.set('browser client minification', true);  // send minified client
@@ -140,6 +140,6 @@ function getIPAddress() {
         return alias.address;
     }
   }
-  return '127.0.0.1';
+  return '10.200.20.222';
 }
  
