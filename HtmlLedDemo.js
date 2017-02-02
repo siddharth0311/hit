@@ -140,6 +140,6 @@ function getIPAddress() {
         return alias.address;
     }
   }
-  return '0.0.0.0';
+  return '10.200.20.222';
 }
  
